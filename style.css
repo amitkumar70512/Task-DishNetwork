@@ -1,0 +1,156 @@
+body {
+    background-color: #d0bdf4;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #763fb0de;
+    ;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #763fb09b;
+    ;
+}
+
+/* navbar */
+.navbar {
+    background-color: #583f96d0;
+    font-weight: 500;
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .nav-link:hover {
+    color: #3f2e6a;
+}
+
+nav img {
+    max-height: 50px;
+}
+
+/* calculator */
+.container {
+    margin-top: 5%;
+    border-left: 5px solid rgb(255, 255, 255);
+}
+
+.calculator {
+    margin: 10px;
+    padding: 2%;
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 30%;
+    background-color: #8458b3c5;
+    border: 4px solid white;
+}
+
+.calculator h4 {
+    color: white;
+    padding-bottom: 5%;
+}
+
+.calculator h4:hover {
+    color: #3f2e6a;
+}
+
+.container tbody {
+    background-color: #763fb0de;
+    border-radius: 10px;
+}
+
+.calculator #input {
+    border-radius: 4px;
+    border: 4px solid white;
+    min-height: 40px;
+    margin-bottom: 10px;
+}
+
+.calculator #history {
+    background-color: transparent;
+    overflow: auto;
+    height: 50px;
+    margin: 20px;
+    border: 1px double #686071de;
+}
+
+.calculator #history p {
+    margin-left: 10px;
+}
+
+.calculator button {
+    text-align: center;
+    width: fit-content;
+    min-width: 40px;
+    background: none;
+    color: white;
+}
+
+.calculator button:hover {
+    border: 1px solid black;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #3f2e6a;
+    position: relative;
+    margin-top: 5%;
+    padding: 1%;
+    height: 10%;
+    border-top: 20px solid #583f96d0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    color: rgb(132, 106, 168);
+}
+
+.footer .row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.footer .row .col ul {
+    margin-top: 1%;
+    color: white;
+    list-style-type: none;
+}
+
+.footer .row .col ul li {
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    color: white;
+    padding: 2%;
+}
+
+.footer span {
+    margin-top: 2%;
+    color: rgb(132, 106, 168);
+    display: flex;
+    justify-content: center;
+}
